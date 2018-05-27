@@ -18,16 +18,14 @@ module.exports = {
     'lodash': '_',
     'react': 'React',
     'react-dom': 'ReactDOM',
-    'semantic-ui-react': 'semantic-ui-react'
+    'semantic-ui-react': 'semanticUIReact'
   },
   module: {
     rules: [
-      {
+      { // Transpile jsx files with babel (cf .babelrc)
         test: /\.(js|jsx)$/,
         exclude: /(node_modules|bower_components)/,
-        use: {
-          loader: 'babel-loader'
-        }
+        use: 'babel-loader'
       }
     ]
   },

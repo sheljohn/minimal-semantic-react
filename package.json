@@ -1,7 +1,7 @@
 {
   "name": "minimal-semantic-react",
   "version": "1.0.0",
-  "description": "Minimal package to get semantic-ui-react working",
+  "description": "Minimal code to get semantic-ui-react working as an external lib with webpack",
   "main": "src/index.jsx",
   "author": "Jonathan H (jhadida.pub@gmail.com)",
   "license": "MIT",
