@@ -3,6 +3,7 @@
 In order to reproduce the issue:
 ```
 git clone https://github.com/sheljohn/minimal-semantic-react
+cd minimal-semantic-react/
 yarn install
 yarn run serve
 ```
