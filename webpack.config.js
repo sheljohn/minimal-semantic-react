@@ -5,6 +5,7 @@ const publicFolder = path.resolve(__dirname, "public");
 module.exports = {
   entry: "./src/index.jsx",
   target: "web",
+  resolve: { extensions: ['*', '.js', '.jsx'] },
   output: {
     path: publicFolder,
     filename: "bundle.js"
