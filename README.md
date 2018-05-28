@@ -13,8 +13,20 @@ yarn run serve
 ```
 
 This will open a page at `localhost:3000`, showing a marvellous button. 
+That's all! Happy hacking :) 
+
+---
+
+Additional information:
 
  - You can use `npm` instead of `yarn` if you prefer.
  - You can change the port in `webpack.config.js`, section `devServer`.
 
-That's all! Happy hacking :) 
+To build upon this skeleton with your own stuff:
+
+ - Create an empty repo wherever you like (Github, Gitlab, Bitbucket, etc.);
+ - After cloning this repo, just rename the git remote:
+```
+git remote rename origin <address of your new repo>
+git push -u origin master
+```
