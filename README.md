@@ -25,8 +25,8 @@ Additional information:
 To build upon this skeleton with your own stuff:
 
  - Create an empty repo wherever you like (Github, Gitlab, Bitbucket, etc.);
- - After cloning this repo, just rename the git remote:
+ - After cloning this repo, just point to your git remote:
 ```
-git remote rename origin <address of your new repo>
+git remote set-url origin <address of your new repo>
 git push -u origin master
 ```
